@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url: 
-       defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8761}/eureka/
-  instance:
-    hostname: localhost
+       defaultZone: http://kknautyal:8761/eureka
+  #instance:
+  #  hostname: localhost
